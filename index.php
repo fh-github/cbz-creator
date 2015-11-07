@@ -8,9 +8,11 @@ shell_exec("open -a File\ Juicer");
 shell_exec("sh filejuicer.sh");
 */
 
+//répertoire(s) contenant des images
 $dirs_to_scan = array(
 	"/Volumes/WD300/_EBOOKS/_JPG"
 );
+//répertoire de destination des cbz
 $dir_cbz = "/Volumes/WD300/_EBOOKS/_CBZ";
 $dirs_to_ignore = array('..', '.', '.DS_Store');
 
